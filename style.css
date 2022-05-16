@@ -26,7 +26,7 @@ body{
     font-size: 20px;
     
 }
-.calculator button{
+.calculator span{
     display:grid;
     width: 70px;
     height: 70px;
@@ -35,20 +35,20 @@ body{
     background: rgb(43, 37, 95);
     border: 1px solid rgba(0,0,0,0.3);
 }
-.calculator button:active{
+.calculator span:active{
     background: blue;
     color:red;
 }
-.calculator button.clear{
+.calculator span.clear{
     grid-column: span 2;
     width: 140px;
     background: orangered;
 }
-.calculator button.plus{
+.calculator span.plus{
     grid-row: span 2;
     height: 140px;
 }
-.calculator button.equal{
+.calculator span.equal{
     background: orange;
     grid-column: span 2;
     width: 140px;
